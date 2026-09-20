@@ -69,12 +69,7 @@ ___
 | `hr`   | `<hr>`   | Horizontal rule - adds a bottom line. It's a self-closing tag  |
 | `img`   | `<img src="" alt="">`  | Add images. It's a self-closing tag  |
 | `blockquote`   | `<blockquote cite=""> </blockquote>`   | Quote something from another website   |
-| Cell 1   | Cell 2   | Cell 2   |
-| Cell 4   | Cell 5   | Cell 2   |
-| Cell 1   | Cell 2   | Cell 2   |
-| Cell 4   | Cell 5   | Cell 2   |
-| Cell 1   | Cell 2   | Cell 2   |
-| Cell 4   | Cell 5   | Cell 2   |
+
 
 ![HTML  Basics Code](./images/html-basics-code.png)
 
@@ -83,38 +78,74 @@ ___
 <hr style="border:2px solid white;">
 
 
-### HTML Forms
+### 3. HTML Forms
 
-> We use web forms to capture user information e.g. login form captures user credentials, contact form captures user email, messages, etc
+> We use web forms to capture user information e.g. login form captures user credentials, contact form captures user email, messages, etc.
+
+-  `label` gives more information about an input field
+
+- `input` is a single self-closing tag that accepts different types of data. 
+
+> Input passes attributes like `type`, `name`, `id`
+
+| HTML (Form) Tag | Usage of the tag | Meaning of the tag |
+| -------- | ---------------- | ------------------ |
+| `input`   | `<input type="text" id="username" >`   | It is a single self-closing tag that accepts different types of data   |
+| `label`   | `<label for="username">Enter Username</label>`   | gives a user more information to enter in an input field   |
+| `select`   | `<select name="question" id="question"><option></option></select>`   | Makes a dropdown   |
+| `textarea`  | `<textarea name="bio" id="bio" rows="10" cols="50"></textarea>`   | Gives input area    |
+
+- Radio buttons have the same `name` attribute 
+
+- `<select>` for the Dropdown in forms
+
+- Submit button - user clicks it to submit their form information.
+> Submit button sends informations to the backend if there's an **action=""** in form tag
+
+##### HTML5 Form Validation 
+- email type
+- **required** attribute
+
+![HTML Forms Summary](./images/HTML-Forms-Summary.png)
+
+| Cell 4   | Cell 5   | Cell 2   |
 
 <hr style="border:2px solid white;">
 
-### CSS Basics
+### 4. CSS Basics
 
 
 <hr style="border:2px solid white;">
 
-### CSS Classes and Selectors
+### 5. CSS Classes and Selectors
 
 <hr style="border:2px solid white;">
 
-### HTML 5 Semantics
+### 6. HTML 5 Semantics
 
-
-
-<hr style="border:2px solid white;">
-
-
-### Chrome Dev Tools
 
 
 <hr style="border:2px solid white;">
 
-### CSS Layout & Position
+
+### 7. Chrome Dev Tools
 
 
 <hr style="border:2px solid white;">
 
-### Pseudo Classes and Elements
+### 8. CSS Layout & Position
+
+
+<hr style="border:2px solid white;">
+
+### 9. Pseudo Classes and Elements
+
+<hr style="border:2px solid white;">
+
+### 10. Intro to Media Queries
+
+<hr style="border:2px solid white;">
+
+### 11. Next Steps
 
 <hr style="border:2px solid white;">

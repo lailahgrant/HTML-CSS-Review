@@ -6,33 +6,56 @@
     <title>HTML and CSS Crash Course</title>
 </head>
 <body>
+    <h1>HTML Forms</h1>
+    <form>
+        <label for="username">Enter Username</label>
+        <input type="text" id="username"  placeholder="Enter your username">
+        <br> <br>
+        <label for="email">Enter an Email</label>
+        <input type="email" id="email" required placeholder="Enter your email">
+        <br> <br>
+        <label for="password">Enter your password</label>
+        <input type="password" id="password" placeholder="Enter your password">
+        <br><br>
 
-    <div>
-    <p>Welcome to the <strong>HTML</strong> and <small>CSS</small> Crash Course!</p>
-    </div>
-    <a href="https://www.youtube.com/watch?v=UB1O30fR-EE" target="_blank">Watch the video</a>   
-    <div>
-        <h1>HTML and CSS Crash Course</h1>
-        <h2>Learn the basics of web development</h2>
-        <h3>HTML and CSS Crash Course</h3>
-        <h4>HTML and CSS Crash Course</h4>
-        <h5>HTML and CSS Crash Course</h5>
-        <h6>HTML and CSS Crash Course</h6>
-    </div>
-    <div>
-        <ul>
-            <li>Item 1</li>
-            <li>Item 2</li>
-            <li>Item 3</li>
-        </ul>
-    </div>
+        <p>Select your Gender</p> 
+        <input type="radio" name="gender" value="male"> Male <br>
+        <input type="radio" name="gender" value="female">Female <br>
 
-    <span>Span Element tag <br> Learn the <em>basics</em> of web development</span>
-    <hr>
-    <img src="./images/Intro-summary.png" alt="Placeholder Image">
-    <blockquote cite="https://www.youtube.com/watch?v=UB1O30fR-EE">
-        <p>HTML and CSS are the building blocks of web development. HTML provides the structure of a webpage, while CSS is used to style and layout the content.</p>            
-    </blockquote>
+        <p>Enter your age</p>
+        <input type="radio" name="age" value="0-18" id="option-1">
+        <label for="option-1">0-18</label>
+        <input type="radio" name="age" value="19-25" id="option-2">
+        <label for="option-2">19-25</label>
+        <input type="radio" name="age" value="26-40" id="option-3">
+        <label for="option-3">26-40</label>
+        <input type="radio" name="age" value="41-60" id="option-4">
+        <label for="option-4">41-60</label>
+        <input type="radio" name="age" value="61+" id="option-5">
+        <label for="option-5">61+</label>
+        <br><br>
 
+        <label for="">Security questions</label>
+        <select name="question" id="question">
+            <option value="q1">What is your mother's maiden name?</option>
+            <option value="q2">What was the name of your first pet?</option>
+            <option value="q3">In which city were you born?</option>
+        </select>
+
+        <br><br>
+
+        <label for="answer">Security question Answer</label>
+        <input type="text" id="answer" name="answer">
+
+        <br><br>
+
+        <label for="bio">Enter your bio</label>
+        <textarea name="bio" id="bio" rows="10" cols="50" placeholder="My name is ...."></textarea>
+
+        <br><br>
+
+        <input type="submit" value="Submit">
+
+    </form>
 </body>
 </html>
