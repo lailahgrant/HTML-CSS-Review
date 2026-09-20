@@ -26,9 +26,33 @@
 - Google Chrome
 - Mozilla Firefox
 
+#### HTML File
+- Create an `index.html` file
 
-### HTML Basics
+Structure of the HTML file
+`<!DOCTYPE html>` - states that this is an HTML file
 
+
+##### Server
+- Add a `Live Server` to run the file in an `http` protocal for auto refresh in the browser each time a file is saved.
+- Add the `Live Server` extension in the Visual Studio Code 
+
+#### Introduction Summary
+![Introduction to HTML and CSS Summary](./images/Intro-summary.png)
+
+
+
+---
+***
+___
+
+<hr>
+
+
+
+### 2. HTML Basics
+
+>  Some tags in HTML
 
 ### HTML Forms
 
