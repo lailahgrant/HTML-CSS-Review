@@ -114,6 +114,26 @@ ___
 
 ### 4. CSS Basics
 
+![CSS Basics](./images/CSS-basics.png)
+
+
+![CSS Basics](./images/CSS-basics-1.png)
+
+
+![CSS Basics](./images/colors.png)
+
+
+![CSS Basics](./images/colors-1.png)
+
+![Inline Elemens](./images/inline-elements.png)
+
+![Block Elemens](./images/block-elements.png)
+
+- Creae a `sle.css` file wih css as follows:
+![CSS Code](./images/css-code.png)
+
+![CSS Summar](./images/CSS-Summar.png)
+
 
 <hr style="border:2px solid white;">
 
